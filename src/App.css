@@ -1,0 +1,13 @@
+.app{
+  width: 99vw;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  overflow: hidden !important;
+}
+
+.color{
+  color: rgb(250,166,26) ;
+  background-color: rgb(250,166,26) !important;
+}
+
+

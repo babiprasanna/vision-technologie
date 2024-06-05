@@ -1,0 +1,201 @@
+.reviw-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden !important;
+    font-family: 'Poppins';
+}
+
+.comment-heading{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+
+.com-heading{
+    display: flex;
+    color: rgb(250,166,26);
+    font-family: 'Poppins';
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.center342{
+    height: 300px;
+    width: 480px !important;
+    border: 1px solid grey;
+    border-bottom-left-radius: 68px;
+    border-bottom-right-radius: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 12px;
+    /* box-shadow: 0 4px 8px  rgb(250,166,26); */
+  }
+
+  .coment-paragraph{
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    font-family:"Poppins";
+  }
+
+  .coment-heading{
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    margin: 0px;
+   
+      background-image: linear-gradient(45deg,rgb(250,166,26),rgb(240, 146, 16),rgb(251, 251, 134));
+      -webkit-background-clip: text; /* For Safari */
+      background-clip: text;
+      color: transparent; /* Hide the original text color */
+    
+  }
+
+  .marquee-line{
+    width: 78%;
+    height: 2px solid grey !important;
+    background-color: #e0e0e0;
+  }
+  
+  .image-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: -8px;
+    padding: 0px;
+  }
+
+  .photo{
+    height: 65px;
+    width: 65px;
+    border-radius:50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo2{
+   background-color: white;
+   height: 50px;
+    width: 50px;
+    border-radius:50%;
+  }
+
+.p{
+    margin-left: 116px;
+    margin-top: 2px;
+}
+
+.star{
+    color: rgb(250,166,26);
+    margin: 0px;
+    margin-right: 1px;
+    height: 18px;
+    width: 18px;
+  }
+
+  .cli-para{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    width: 800px;
+    font-weight: 400;
+    font-family:"Poppins";
+  }
+
+.line{
+  height: 1px;
+  color: rgb(250,166,26)!important;
+  width: 20%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4px;
+  font-family:"Poppins";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

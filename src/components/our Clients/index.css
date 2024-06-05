@@ -1,0 +1,48 @@
+.clients-heading{
+    font-size: 20px;
+    color: white !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.count{
+    font-size: 100px;
+    color: white !important;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.plus{
+    font-size: 70px;
+    text-align: right;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.align45{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes zoomInUp {
+    from {
+      opacity: 0;
+      transform: scale3d(0.1, 0.1, 0.1) translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: scale3d(1, 1, 1) translateY(0);
+    }
+  }
+  
+  .zoomInUp {
+    animation: zoomInUp 3s forwards;
+  }

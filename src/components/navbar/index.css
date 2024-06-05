@@ -1,0 +1,40 @@
+.navbar-container{
+  height: 70px !important;
+  display: flex;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .logo{
+    height: 60px;
+  }
+.nav-link{
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500;
+  color: rgb(250,166,26) !important;
+}
+
+.nav-link:hover{
+  color: white !important;
+}
+
+.bg{
+  color: white !important;
+  background-color: white !important;
+  display: flex;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.color{
+  color: white !important;
+  border: 0px !important;
+}
+

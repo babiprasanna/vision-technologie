@@ -1,0 +1,156 @@
+.home-container{
+    height: 90vh !important;
+    font-family:"Poppins" !important;
+    color: rgb(250,166,26)!important;
+}
+
+  .slide {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  } 
+  
+  .slide img {
+    display: block;
+    width: 100%;
+  }
+  
+  .slide-content {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .controls {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    display: flex; 
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-heading{
+    font-size: 40px;
+    color: rgb();
+    font-family:"Poppins" !important;
+    color: rgb(250,166,26)!important;
+  }
+
+  .slider-para{
+    font-size: 28px;
+  }
+  
+  .center{
+   margin-top: -270px;
+  }
+  
+  .image{
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .typing-animation p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .typing-animation p::after {
+    content: '|';
+    animation: blink 0.7s infinite alternate; 
+  }
+  
+  @keyframes blink {
+    0% { opacity: 0; }
+    100% { opacity: 1}
+  }
+
+
+  .slider-container {
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slide {
+    flex: 0 0 100%; /* Adjust slide width as needed */
+    transition: transform 0.5s ease; /* Smooth slide transition */
+  }
+  
+  .slide.active {
+    transform: translateX(0); /* Display active slide */
+  }
+  
+  .dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #333;
+  }
+  
+  span{
+    font-family:"Poppins" !important;
+    color: rgb(250,166,26)!important;
+  }
+
+  .bax {
+    animation: fadeInLeftAnimation 1s forwards;
+  }
+
+  @keyframes fadeInLeftAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+  }
+
+  .bax2 {
+    animation: fadeInRightAnimation 1s forwards;
+  }
+
+  @keyframes fadeInRightAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+  
+  
